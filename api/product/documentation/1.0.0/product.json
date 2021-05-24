@@ -527,13 +527,16 @@
             "type": "string"
           },
           "title": {
-            "type": "string"
+            "type": "string",
+            "minLength": 1
           },
           "name": {
-            "type": "string"
+            "type": "string",
+            "minLength": 1
           },
           "code": {
-            "type": "string"
+            "type": "string",
+            "minLength": 1
           },
           "price": {
             "type": "number"
@@ -656,13 +659,16 @@
         ],
         "properties": {
           "title": {
-            "type": "string"
+            "type": "string",
+            "minLength": 1
           },
           "name": {
-            "type": "string"
+            "type": "string",
+            "minLength": 1
           },
           "code": {
-            "type": "string"
+            "type": "string",
+            "minLength": 1
           },
           "price": {
             "type": "number"

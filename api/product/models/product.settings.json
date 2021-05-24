@@ -14,20 +14,24 @@
   "attributes": {
     "title": {
       "type": "string",
-      "required": true
+      "required": true,
+      "minLength": 1
     },
     "name": {
       "type": "string",
-      "required": true
+      "required": true,
+      "minLength": 1
     },
     "code": {
       "type": "string",
       "required": true,
-      "unique": true
+      "unique": true,
+      "minLength": 1
     },
     "price": {
       "type": "decimal",
-      "required": true
+      "required": true,
+      "min": 0
     },
     "short_description": {
       "type": "text"
